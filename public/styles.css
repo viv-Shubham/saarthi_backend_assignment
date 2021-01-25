@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container_box {
+  position: fixed;
+  top: 50vh;
+  left: 50vw;
+  transform: translate(-50%, -50%);
+}
+#url {
+  width: 30vw;
+}
+.btn {
+  margin-top: 20px;
+}
+.data_container {
+  resize: none;
+  border: 2px solid;
+  padding: 20px;
+  width: 50vw;
+  height: 60vh;
+  overflow: auto;
+  position: fixed;
+  left: 25vw;
+  top: 20vh;
+}
